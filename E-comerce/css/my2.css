@@ -1,0 +1,60 @@
+section{
+	padding: 20px 0;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+.skside{
+	font-family: "Lucida Console";
+	font-size: 20px;
+}
+
+.brand-logo{
+	margin-left: 15px;
+	font-family: "Lucida Console";
+}
+
+.lg {
+	border-radius: 30%;
+	margin-top: 0.5%;
+}
+
+.logo{
+	margin-top: 10%;
+	margin-bottom: -10%;
+	margin-right: : 25%;
+	opacity: 85%;
+	border-radius: 30%
+}
+
+.navbar-fixed {
+	position: absolute;
+}
+
+.parallax-container {
+	height:150px;
+}
+
+.parallax img {
+	filter: opacity(70%);
+ 
+}
+
+.card-panel,
+.valign-wrapper
+ {
+	border-radius: 20%;
+}
+
+.foot{
+	font-family: "Lucida Console";
+	font-size: 25px;
+}
+
+button {
+	margin-left: 40%;
+}
+
+

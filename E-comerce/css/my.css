@@ -1,0 +1,169 @@
+body {
+	background-color:#ffffff;
+}
+.slider h3{
+	text-shadow: 3px 3px 5px rgba(0,0,0,1);	
+}
+
+.skside{
+	font-family: "Lucida Console";
+	font-size: 20px;
+}
+
+.brand-logo{
+	margin-left: 15px;
+	font-family: "Lucida Console";
+}
+
+.lg {
+	border-radius: 30%;
+	margin-top: 0.5%;
+}
+
+.logo{
+	margin-top: 10%;
+	margin-bottom: -10%;
+	margin-right: : 25%;
+	opacity: 85%;
+	border-radius: 30%
+}
+
+.navbar-fixed {
+	position: absolute;
+}
+
+section{
+	padding: 20px 0;
+}
+
+
+.produkku,
+h5 {
+	font-size: 20px;
+}
+
+.produk1 {
+	border-radius: 50%;
+	position: relative;
+    animation: anim 2s infinite;
+}
+
+.produk2 {
+	border-radius: 50%;
+	position: relative;
+    animation: anim 3.5s infinite;
+}
+
+.produk3 {
+	border-radius: 50%;
+	position: relative;
+    animation: anim 3s infinite;
+}
+
+.produk1:hover, 
+.produk2:hover,
+.produk3:hover{
+	  animation: anim 0s infinite;
+}
+
+@keyframes anim{
+    0%{
+        top:0px;
+    }
+    50%{
+        top:25px;
+    }
+    100%{
+        top:0px;
+    }
+}
+
+.btn{
+	width: 250px;
+	height: 80px;
+	background: none;
+	border: 4px solid;
+	color: #8d6e63 ;
+	font-weight: 700;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-size: 16px;
+	position: relative;
+	word-spacing: -1px;
+}
+
+.btn::before,
+.btn::after{
+	content: "";
+	position: absolute;
+	width: 14px;
+	height: 4px;
+	background: #d7ccc8;
+	transform: skewX(59deg);
+	transition: .5s linear;
+}
+
+.btn::before{
+	top: -4px;
+	left: 10%;	
+}
+
+.btn::after{
+	bottom: -4px;
+	right: 10%;
+}
+
+.btn:hover::before{
+	left: 80%;
+
+}
+
+.btn:hover::after{
+	right: 80%;
+	
+}
+
+.kita{
+	font-size: 26px;
+}
+
+.parallax-container {
+	height:150px;
+
+}
+
+.bot{
+	height:100px;
+}
+
+
+.parallax img {
+	filter: opacity(70%);
+ ;
+}
+
+.card-panel,
+.valign-wrapper
+ {
+	border-radius: 20%;
+}
+
+.bendera{
+	border-radius: 10%;
+	position: relative;
+}
+
+.foot{
+	font-family: "Lucida Console";
+	font-size: 25px;
+}
+
+
+.tombol{
+cursor: pointer;
+}
+
+
+
+
+
